@@ -1,8 +1,17 @@
 # markov_tea
 
-> A Vue.js project
+**Travail en cours**
 
-## Build Setup
+Une mini-app web pour générer des haikus à partir d'un corpus. Le tout dans le navigateur.
+
+TODO :
+
+* finir le design + gérer les SVG proprement
+* tests
+
+## Dev
+
+Construit avec VueJS, webpack et babel
 
 ``` bash
 # install dependencies
@@ -18,4 +27,3 @@ npm run build
 npm test
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
