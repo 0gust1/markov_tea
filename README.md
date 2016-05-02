@@ -4,10 +4,15 @@
 
 Une mini-app web pour générer des haikus à partir d'un corpus. Le tout dans le navigateur.
 
-TODO :
+**TODO :**
 
-* finir le design + gérer les SVG proprement
+* finir le design + version mobile + gérer les SVG proprement
 * tests
+
+**Crédits :**
+
+* Substack pour le moteur de chaines de markov.
+* WhiteFangs pour le comptage de syllabes francaises en JS (https://github.com/WhiteFangs/metriques.js)
 
 ## Dev
 
