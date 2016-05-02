@@ -9,6 +9,7 @@
     "test": "karma start build/karma.conf.js --single-run"
   },
   "dependencies": {
+    "metriques":"https://github.com/WhiteFangs/metriques.js.git#master",
     "animate.css": "^3.5.1",
     "markov": "0.0.7",
     "mo-js": "^0.147.4",
