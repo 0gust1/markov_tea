@@ -32,3 +32,5 @@ npm run build
 npm test
 ```
 
+Deploying dist folder to gh-pages branch : https://gist.github.com/cobyism/4730490
+
