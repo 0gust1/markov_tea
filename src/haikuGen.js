@@ -65,7 +65,7 @@ function generateHaiku () {
 }
 
 function initializeGenerator (order,text, cb) {
-  //initializeGen(order);
+  // initializeGen(order);
   m = order ? markov(order) : markov();
   m.seed(text, cb);
 }

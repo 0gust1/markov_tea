@@ -1,17 +1,17 @@
 <template>
       <section class="haikuZone">
-        
+
         <div class="haiku_content animated {{haiku.length!==0?'haiku_visible':'haiku_invisible'}}" v-show="haiku.length!==0">
             <p v-slicer="haiku[0]" transition="fade"></p>
             <p v-slicer="haiku[1]" transition="fade"></p>
             <p v-slicer="haiku[2]" transition="fade"></p>
             <p class="social_post">
-                <a href="{{twitterURL}}" class="social_lnk social_lnk_twitter" title="poster sur twitter">PT</a>   
+                <a href="{{twitterURL}}" class="social_lnk social_lnk_twitter" title="poster sur twitter">PT</a>
                 <a href="{{facebookURL}}" class="social_lnk social_lnk_fb"  title="poster sur facebook">PF</a>
             </p>
-            
+
         </div>
-        
+
         <div class="teapot_root">
             <object class="smoke" id="smoke" type="image/svg+xml"></object>
             <a class="btn-generate-haiku" title="générer un haiku" @click="generateHaiku()">
@@ -64,7 +64,7 @@ export default {
       this.$dispatch('generateHaiku')
       this.$nextTick(function () {
         this.vivusSmoke.reset().play()
-        console.log(this.$el.querySelector('.haiku_content'))
+        // console.log(this.$el.querySelector('.haiku_content'))
         this.$el.querySelector('.haiku_content').classList.add('tesste')
       })
     }
